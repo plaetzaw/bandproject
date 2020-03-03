@@ -20,11 +20,15 @@
   </head>
   <body>
     <div class="albumBackground">
-      <%albums.forEach(albumObj=>{%> <%=pageTitle%> <%=pageReleaseDate%>
-      <%=pageSales%> <%})%>
+      <br />
+      <%=pageTitle[0]%>
+      <br />
+      <%=pageReleaseDate[0]%>
+      <br />
+      <%=pageSales%>
       <img src="/images/<%= pageArt[0]%>" alt="" />
       <br />
-      <%=pageSummary%>
+      <%=pageSummary[0]%>
       <br />
       <br />
     </div>

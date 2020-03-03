@@ -13,7 +13,7 @@ router.get("/albums/:albumid", (req, res) => {
   let pageArt = [];
 
   data.albums.forEach(albumObj => {
-    if ((albumObj.shortname = req.param("albumid"))) {
+    if (albumObj.shortname == req.param("albumid")) {
       pageTitle.push(albumObj.title);
       pageShortName.push(albumObj).shortname;
       pageSummary.push(albumObj.summary);
