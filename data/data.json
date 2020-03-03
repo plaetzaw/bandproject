@@ -1,0 +1,81 @@
+{
+  "albums": [
+    {
+      "title": "30 Seconds to Mars",
+      "shortname": "30_Seconds_to_Mars",
+      "summary": "30 Seconds to Mars was described as a concept album centering on human struggle and self-determination, characterized by personal lyrics that use otherworldly elements and conceptual ideas to illustrate a truthful personal situation. The album incorporates progressive sounds with influences and elements from new wave, space rock, and electronica. Upon release, 30 Seconds to Mars received mostly positive reviews from music critics, who commended the album's lyrical content and the band's musicianship, which has been compared to the works of Pink Floyd, Tool, and Brian Eno.",
+      "shortsummary": "30 Seconds to Mars premiere album",
+      "releasedate": "August 27, 2002",
+      "certification": "BPI: Silver",
+      "sales": "2 million worldwide",
+      "tracklist": ["30SecondsToMarsTracklist.png"],
+      "artwork": ["30SecondsToMarsCover.jpeg"]
+    },
+    {
+      "title": "A Beautiful Lie",
+      "shortname": "A_Beautiful_Lie",
+      "summary": "A Beautiful Lie differs notably from the band's self-titled debut album, both musically and lyrically. Whereas the eponymous concept album's lyrics focus on human struggle and astronomical themes, A Beautiful Lie's lyrics are 'personal and less cerebral'.[1] It is the first to feature guitarist Tomo Miličević and the only one to feature bassist Matt Wachter, who left the band in 2007.[2] The album produced four singles, 'Attack', 'The Kill', 'From Yesterday', and 'A Beautiful Lie', of which three of those four singles managed to chart within the top 30 on the US Modern Rock chart, with 'The Kill' and 'From Yesterday' entering the top three.",
+      "shortsummary": "A Beautiful  Lie was their second album",
+      "releasedate": "August 30, 2005",
+      "certification": [
+        "RIAA: Platinum",
+        "ARIA: Gold",
+        "BPI: Platinum",
+        "BVMI: Gold",
+        "FIMI: Platinum"
+      ],
+      "sales": "4 million worldwide",
+      "tracklist": ["ABeautifulLieTracklist.png"],
+      "artwork": ["ABeautifulLie.jpg"]
+    },
+    {
+      "title": "This Is War",
+      "shortname": "This_Is_War",
+      "summary": "The album marked a departure from the band's previous material, implementing a more experimental direction that draws influence from progressive rock, new wave, industrial, and heavy metal music. Lyrically, it is a conceptual record shaped by the band's personal struggles and legal battle with their record label, and is somewhat considered a rock opera. It was accompanied by the documentary film Artifact (2012), which chronicled the dispute.",
+      "shortsummary": "This Is War is my favorite album of all time",
+      "releasedate": "December 8, 2009",
+      "certification": [
+        "RIAA: Gold",
+        "AFP: 2× Platinum",
+        "ARIA: Gold",
+        "BPI: Platinum",
+        "BVMI: Platinum",
+        "FIMI: Gold",
+        "IFPI AUT: Gold",
+        "ZPAV: Platinum"
+      ],
+      "sales": "4 million worldwide",
+      "tracklist": ["ThisIsWarTracklist.png"],
+      "artwork": ["ThisIsWar.jpg"]
+    },
+    {
+      "title": "Love, Lust, Faith and Dreams",
+      "shortname": "Love_Lust_Faith_and_Dreams",
+      "summary": "The record carries the concept album format of This Is War and expands the spectrum to revolve around the themes after which it is named. Its sound follows the experimental direction found on some of the band's previous work, incorporating elements of art rock and electronic music. The album was promoted with three singles, 'Up in the Air', 'Do or Die', and 'City of Angels', two of which managed to chart within the top ten on the US Alternative Songs chart.",
+      "shortsummary": "I wasn't as impressed by Love, Lust, Faith and Dreams as I was, This is War",
+      "releasedate": "May 17, 2013",
+      "certification": [
+        "AFP: 2× Platinum",
+        "BPI: Silver",
+        "BVMI: Gold",
+        "FIMI: Gold",
+        "IFPI AUT: Gold",
+        "ZPAV: Gold"
+      ],
+      "sales": "400k domestic",
+      "tracklist": ["LoveLustFaithandDreamsTracklist.png"],
+      "artwork": ["LoveLustFaithandDreams.jpeg"]
+    },
+    {
+      "title": "America",
+      "shortname": "America",
+      "summary": "Produced by frontman Jared Leto alongside Yellow Claw, Zedd, Robopop, and others, the album represents a drastic shift from the experimental compositions of their previous efforts, opting for an electronic and art pop influenced sound. Lyrically, it is a concept album exploring themes such as politics, sex, and fame. The album was promoted with three singles – 'Walk on Water', 'Dangerous Night', and 'Rescue Me' – in addition to the Monolith Tour.",
+      "shortsummary": "I didn't even know this album existed until I started this project, I may have to get around to listening to this at some point",
+      "releasedate": "April 6, 2018",
+      "certification": ["N/A"],
+      "sales": "N/A",
+      "tracklist": ["AmericaTracklist.png"],
+      "artwork": ["America.jpg"]
+    }
+  ]
+}

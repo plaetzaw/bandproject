@@ -1,0 +1,99 @@
+.albumBackground {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.albumDiv {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/30STMInConcert.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax30STM {
+  /* The image used */
+  background-image: url("/images/30STMBG1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxABL {
+  /* The image used */
+  background-image: url("/images/30STMBG2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxTIW {
+  /* The image used */
+  background-image: url("/images/30STMBG5.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxLFFD {
+  /* The image used */
+  background-image: url("/images/30STMBG4.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxAMERICA {
+  /* The image used */
+  background-image: url("/images/30STMBG3.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.albumstats {
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+}
