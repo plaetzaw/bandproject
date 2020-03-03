@@ -1,6 +1,7 @@
 .albumBackground {
   background-color: black;
   color: antiquewhite;
+  padding: 10px;
 }
 
 .albumDiv {

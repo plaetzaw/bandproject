@@ -21,7 +21,7 @@ router.get("/albums/:albumid", (req, res) => {
       pageReleaseDate.push(albumObj.releasedate);
       pageTracklist.push(albumObj.tracklist);
       pageArt = pageArt.concat(albumObj.artwork);
-      pageCertification = pageCertification.concat(albumObj.certifications);
+      pageCertification.push(albumObj.certifications);
     }
   });
   res.render("albums", {

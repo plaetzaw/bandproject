@@ -21,15 +21,21 @@
   <body>
     <div class="albumBackground">
       <br />
-      <%=pageTitle[0]%>
+      <h1><%=pageTitle[0]%></h1>
       <br />
-      <%=pageReleaseDate[0]%>
+      Released: <%=pageReleaseDate[0]%>
       <br />
-      <%=pageSales%>
-      <img src="/images/<%= pageArt[0]%>" alt="" />
+      Sales: <%=pageSales%>
+      <div class="row">
+        <div class="col-3"><img src="/images/<%= pageArt[0]%>" alt="" /></div>
+        <div class="col-9"><%=pageSummary[0]%></div>
+      </div>
       <br />
-      <%=pageSummary[0]%>
       <br />
+      <div class="row">
+        <div class="col-6">Tracklist:</div>
+        <div class="col-6"> <img src="/images/<%= pageTracklist[0]%>" alt="" width="600px" /><div>
+
       <br />
     </div>
     <!-- Optional JavaScript -->
