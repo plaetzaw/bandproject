@@ -2,12 +2,19 @@
   background-color: black;
   color: antiquewhite;
   padding: 10px;
+  text-align: center;
 }
 
-.albumDiv {
-  background-color: grey;
-  color: whitesmoke;
+.albumstats {
+  background-color: black;
+  color: antiquewhite;
+  padding: 5pxx;
+  text-align: center;
 }
+
+/* .navbar {
+  background: transparent;
+} */
 
 .parallax {
   /* The image used */

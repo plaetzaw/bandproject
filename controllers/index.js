@@ -6,9 +6,11 @@ router.get("/", (req, res) => {
   let shortSums = [];
   let pageArt = [];
   let pageShortName = [];
+  let pageSummary = [];
   data.albums.forEach(albumObj => {
     shortSums.push(albumObj.shortsummary);
     pageShortName.push(albumObj.shortname);
+    pageSummary.push(albumObj.summary);
   });
   data.albums.forEach(albumObj => {
     pageArt = pageArt.concat(albumObj.artwork);
@@ -19,7 +21,8 @@ router.get("/", (req, res) => {
   res.render("index", {
     albumIMG: pageArt,
     pageSUM: shortSums,
-    pageShortName: pageShortName
+    pageShortName: pageShortName,
+    pageSummary: pageSummary
   });
 });
 

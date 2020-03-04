@@ -9,6 +9,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link
@@ -20,7 +21,7 @@
   </head>
   <!-- <div class="background">Page Background -->
   <body>
-    <nav class="navbar fixed-top navbar-light bg-light">
+    <nav class="navbar fixed-top text-color-white navbar-light bg-white">
       <a class="navbar-brand" href="#">30 Seconds to Mars</a>
     </nav>
     <div class='parallax'>Band Information</div>
@@ -33,33 +34,37 @@
         <p>As of September 2014, the band had sold over 15 million albums worldwide. Thirty Seconds to Mars has consistently enjoyed sold out tours and numerous headlining festival slots. The band is noted for its energetic live performances and for fusing elements from a wide variety of genres, through its use of philosophical and spiritual lyrics, concept albums, and experimental music. Thirty Seconds to Mars has received several awards and accolades throughout its career, including a Guinness World Record, and has been included in the Kerrang! list of best artists of the 2000s.</p>   
         </div>
     
-    <div class='parallax30STM'></div>
-    <div class='albumstats'>30 Seconds To Mars<br>
-      <%= pageSUM[0] %>
-      <a href="/albums/<%=pageShortName[0]%>"><img src="/images/<%= albumIMG[0]%>" alt=""></a>
-    <br>
-    </div>
-    <div class='parallaxABL'></div>
-    <div class='albumstats'>A Beautiful Lie
-        <%= pageSUM[1] %>
-        <a href="/albums/<%=pageShortName[1]%>"><img src="/images/<%= albumIMG[1]%>" alt=""></a>
-    </div>
-    <div class='parallaxTIW'></div>
-    <div class='albumstats'>This Is War
-        <%= pageSUM[2] %>
-        <a href="/albums/<%=pageShortName[2]%>"><img src="/images/<%= albumIMG[2]%>" alt=""></a>
-    </div>
-    <div class='parallaxLFFD'></div>
-    <div class='albumstats'>Love Lust Faith and Dreams
-        <%= pageSUM[3] %>   
-        <a href="/albums/<%=pageShortName[3]%>"><img src="/images/<%= albumIMG[3]%>" alt=""></a>
-    </div>
-    <div class='parallaxAMERICA'></div>
-    <div class='albumstats'>America
-        <%= pageSUM[4] %>      
-        <a href="/albums/<%=pageShortName[4]%>"><img src="/images/<%= albumIMG[4]%>" alt=""></a>
 
+    <div class='parallax30STM'></div>
+    <div class="albumstats row">  
+     <div class='albumstats col-3'><h1>30 Seconds To Mars</h1> <a href="/albums/<%=pageShortName[0]%>"><img src="/images/<%= albumIMG[0]%>" alt=""></a></div>
+     <div class='albumstats col-9'><h4><%= pageSummary[0] %></h4></div>
     </div>
+    
+    <div class='parallaxABL row'></div>
+    <div class="albumstats row">  
+        <div class='albumstats col-3'><h1>A Beautiful Lie</h1> <a href="/albums/<%=pageShortName[1]%>"><img src="/images/<%= albumIMG[1]%>" alt=""></a></div>
+        <div class='albumstats col-9'><h4><%= pageSummary[1] %></h4></div>
+       </div>
+
+    <div class='parallaxTIW row'></div>
+    <div class="albumstats row">  
+        <div class='albumstats col-3'><h1>This Is War</h1> <a href="/albums/<%=pageShortName[2]%>"><img src="/images/<%= albumIMG[2]%>" alt=""></a></div>
+        <div class='albumstats col-9'><h4><%= pageSummary[2] %></h4></div>
+       </div>
+
+
+    <div class='parallaxLFFD row'></div>
+    <div class="albumstats row">  
+        <div class='albumstats col-3'><h1>Love, Lust, Faith and Dreams</h1> <a href="/albums/<%=pageShortName[3]%>"><img src="/images/<%= albumIMG[3]%>" alt=""></a></div>
+        <div class='albumstats col-9'><h4><%= pageSummary[3] %></h4></div>
+       </div>
+
+    <div class='parallaxAMERICA row'></div>
+    <div class="albumstats row">  
+        <div class='albumstats col-3'><h1>America</h1> <a href="/albums/<%=pageShortName[4]%>"><img src="/images/<%= albumIMG[4]%>" alt=""></a></div>
+        <div class='albumstats col-9'><h4><%= pageSummary[4] %></h4></div>
+       </div>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -14,3 +14,5 @@ if (releaseDates.length > 0);
 for (let i = 0; i < releaseDates.length; i++) {
   releaseDates[i];
 }
+
+// ejsfor -> creates for loop using ejs
