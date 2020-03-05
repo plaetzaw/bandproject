@@ -1,13 +1,22 @@
-/* .albumBackground {
+.albumBackground {
   background-color: black;
   color: antiquewhite;
   padding: 10px;
   text-align: center;
-} */
-
-#formBG {
-  background-image: url("/images/30STMFormsBG.jpg");
 }
+
+.feedbackZone {
+  padding-left: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  background-image: url("/images/30STMHeader.jpg");
+}
+
+/* #formBG {
+  background-image: url("/images/30STMFormsBG.jpg");
+} */
 
 .albumstats {
   background-color: black;
