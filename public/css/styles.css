@@ -1,15 +1,30 @@
-.albumBackground {
+/* .albumBackground {
   background-color: black;
   color: antiquewhite;
   padding: 10px;
   text-align: center;
+} */
+
+#formBG {
+  background-image: url("/images/30STMFormsBG.jpg");
 }
 
 .albumstats {
   background-color: black;
   color: antiquewhite;
-  padding: 5pxx;
+  padding: 5px;
   text-align: center;
+  display: inline;
+  vertical-align: middle;
+}
+
+.h4 {
+  background-color: blue;
+  color: antiquewhite;
+  padding: 5px;
+  text-align: center;
+  display: inline;
+  vertical-align: middle;
 }
 
 /* .navbar {
@@ -98,10 +113,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.albumstats {
-  background-color: black;
-  color: antiquewhite;
-  text-align: center;
 }

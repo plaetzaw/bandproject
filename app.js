@@ -12,6 +12,9 @@ app.set("view engine", "ejs");
 //set routes
 app.use(require("./controllers/index"));
 app.use(require("./controllers/albums"));
+app.use(require("./controllers/feedback"));
+app.use(require("./controllers/api"));
+
 //index.js
 //speakers
 
