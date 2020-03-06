@@ -14,6 +14,7 @@ router.get("/", (req, res) => {
   });
   data.albums.forEach(albumObj => {
     pageArt = pageArt.concat(albumObj.artwork);
+    // pageCerts = pageCerts.concat(albumObj.certification);
     // console.log(albumObj.artwork);
   });
   //   console.log(shortSums[2]);
@@ -23,6 +24,7 @@ router.get("/", (req, res) => {
     pageSUM: shortSums,
     pageShortName: pageShortName,
     pageSummary: pageSummary
+    // pageCerts: pageCerts
   });
 });
 

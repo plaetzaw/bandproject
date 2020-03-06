@@ -9,7 +9,19 @@
       "certification": "BPI: Silver",
       "sales": "2 million worldwide",
       "tracklist": ["30SecondsToMarsTracklist.png"],
-      "artwork": ["30SecondsToMarsCover.jpeg"]
+      "artwork": ["30SecondsToMarsCover.jpeg"],
+      "bandmembers": [
+        "Jared Leto",
+        "Shannon Leto",
+        "Solon Bixler",
+        "Matt Watcher"
+      ],
+      "bandpics": [
+        "JaredLeto.jpg",
+        "ShannonLeto.jpg",
+        "SolonBixler.jpg",
+        "MattWatcher.jpg"
+      ]
     },
     {
       "title": "A Beautiful Lie",
@@ -26,7 +38,14 @@
       ],
       "sales": "4 million worldwide",
       "tracklist": ["ABeautifulLieTracklist.png"],
-      "artwork": ["ABeautifulLie.jpg"]
+      "artwork": ["ABeautifulLie.jpg"],
+      "bandmembers": [
+        "Jared Leto",
+        "Shannon Leto",
+        "Tomo Miličević",
+        "MattWatcher"
+      ],
+      "bandpics": ["JaredLeto.jpg", "ShannonLeto.jpg", "TomoMilicevic.jpg"]
     },
     {
       "title": "This Is War",
@@ -46,7 +65,9 @@
       ],
       "sales": "4 million worldwide",
       "tracklist": ["ThisIsWarTracklist.png"],
-      "artwork": ["ThisIsWar.jpg"]
+      "artwork": ["ThisIsWar.jpg"],
+      "bandmembers": ["Jared Leto", "Shannon Leto", "Tomo Miličević"],
+      "bandpics": ["JaredLeto.jpg", "ShannonLeto.jpg", "TomoMilicevic.jpg"]
     },
     {
       "title": "Love, Lust, Faith and Dreams",
@@ -64,7 +85,9 @@
       ],
       "sales": "400k domestic",
       "tracklist": ["LoveLustFaithandDreamsTracklist.png"],
-      "artwork": ["LoveLustFaithandDreams.jpeg"]
+      "artwork": ["LoveLustFaithandDreams.jpeg"],
+      "bandmembers": ["Jared Leto", "Shannon Leto", "Tomo Miličević"],
+      "bandpics": ["JaredLeto.jpg", "ShannonLeto.jpg", "TomoMilicevic.jpg"]
     },
     {
       "title": "America",
@@ -75,7 +98,9 @@
       "certification": ["N/A"],
       "sales": "N/A",
       "tracklist": ["AmericaTracklist.png"],
-      "artwork": ["America.jpg"]
+      "artwork": ["America.jpg"],
+      "bandmembers": ["Jared Leto", "Shannon Leto", "Tomo Miličević"],
+      "bandpics": ["JaredLeto.jpg", "ShannonLeto.jpg", "TomoMilicevic.jpg"]
     }
   ]
 }

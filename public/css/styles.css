@@ -7,13 +7,28 @@
 
 .albumLeft {
   padding-left: 30px;
+  padding-bottom: 30px;
   background-color: red;
   border-right: black 4px solid;
+  border-bottom: black 4px solid;
 }
 
 .albumRight {
   padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: black 4px solid;
+
   /* background-color: silver; */
+}
+
+.bandmembers {
+  border-top: black 4px solid;
+
+  background-color: green;
+}
+
+.bandholder {
+  background-color: yellow;
 }
 
 .feedbackZone {
