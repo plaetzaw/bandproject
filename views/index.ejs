@@ -26,6 +26,19 @@
       <a class="navbar-brand" href="/">Home</a>
       <a class="navbar-brand" href="/feedback">Feedback</a>
       <a class="navbar-brand" href="#">Chat</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Albums
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="/albums/30_Seconds_To_Mars">30 Seconds to Mars</a>
+          <a class="dropdown-item" href="/albums/A_Beautiful_Lie">A Beautiful Lie</a>
+          <a class="dropdown-item" href="/albums/This_Is_War">This Is War</a>
+          <a class="dropdown-item" href="/albums/Love_Lust_Faith_and_Dreams">Love, Lust, Faith and Dreams</a>
+          <a class="dropdown-item" href="/albums/America">America</a>
+
+        </div>
+      </div>
     </div>
 
     </nav>
@@ -45,7 +58,7 @@
     <div class='parallax30STM'></div>
     <div class="row">  
      <div class='albumstats col-3'><h1>30 Seconds To Mars</h1> <a href="/albums/<%=pageShortName[0]%>"><img src="/images/<%= albumIMG[0]%>" alt=""></a></div>
-     <div class='albumstats col-9 align-middle'><h4 class='align-middle'><%= pageSummary[0] %></h4></div>
+     <div class='albumstats col-9 align-middle'><h4><%= pageSummary[0] %></h4></div>
     </div>
     
     <div class='parallaxABL row'></div>

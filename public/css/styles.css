@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.albumLeft {
+  padding-left: 30px;
+  background-color: red;
+  border-right: black 4px solid;
+}
+
+.albumRight {
+  padding-top: 20px;
+  /* background-color: silver; */
+}
+
 .feedbackZone {
   padding-top: 60px;
   padding-left: 20px;
@@ -21,11 +32,12 @@
 
 .albumstats {
   background-color: black;
-  color: antiquewhite;
-  padding: 5px;
+  color: white;
+  padding: 10px;
   text-align: center;
-  display: inline;
-  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+  font-size: 5vw;
 }
 
 .h4 {

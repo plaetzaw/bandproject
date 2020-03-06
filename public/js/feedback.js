@@ -53,7 +53,7 @@ let updateFeedback = feedbackData => {
     output += '     <div class="feedback-item item-list media-list">';
     output += '       <div class="feedback-item media">';
     output +=
-      '       <div class="media-left"><button class="feedback-delete btn btn-xs btn-danger"><span id="' +
+      '       <div class="media-left"><button width="100px" height="400px" class="feedback-delete btn btn-xs btn-danger"><span id="' +
       key +
       '" class="glyphicon glyphicon-remove"></span></button></div>';
     output += '         <div class="feedback-info media-body">';
