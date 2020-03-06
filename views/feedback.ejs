@@ -27,11 +27,27 @@
   <body>
     <body id="<%= pageID %>">
 
-    <nav class="navbar fixed-top text-color-white navbar-light bg-white">
-      <a class="navbar-brand" href="/">Home</a>
-      <a class="navbar-brand" href="#">Feedback</a>
-      <a class="navbar-brand" href="#">Chat</a>
-    </nav>
+      <div class=navbar>
+        <nav class="navbar fixed-top navbar-light">
+          <a class="navbar-brand" href="/">Home</a>
+          <a class="navbar-brand" href="/feedback">Feedback</a>
+          <a class="navbar-brand" href="/chat">Chat</a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Albums
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="/albums/30_Seconds_To_Mars">30 Seconds to Mars</a>
+              <a class="dropdown-item" href="/albums/A_Beautiful_Lie">A Beautiful Lie</a>
+              <a class="dropdown-item" href="/albums/This_Is_War">This Is War</a>
+              <a class="dropdown-item" href="/albums/Love_Lust_Faith_and_Dreams">Love, Lust, Faith and Dreams</a>
+              <a class="dropdown-item" href="/albums/America">America</a>
+    
+            </div>
+          </div>
+        </div>
+    
+        </nav>
     <!-- <div class="parallax" id="formBG"> -->
     <div class="feedbackZone row">
       <div class="col-sm-4">

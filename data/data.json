@@ -43,9 +43,14 @@
         "Jared Leto",
         "Shannon Leto",
         "Tomo Miličević",
-        "MattWatcher"
+        "Matt Watcher"
       ],
-      "bandpics": ["JaredLeto.jpg", "ShannonLeto.jpg", "TomoMilicevic.jpg"]
+      "bandpics": [
+        "JaredLeto.jpg",
+        "ShannonLeto.jpg",
+        "TomoMilicevic.jpg",
+        "MattWatcher.jpg"
+      ]
     },
     {
       "title": "This Is War",

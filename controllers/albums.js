@@ -41,6 +41,7 @@ router.get("/albums/:albumid", (req, res) => {
     pageBandPics: pageBandPics,
     pageBandMembers: pageBandMembers
   });
+  console.log(pageTitle);
   console.log(pageCertification);
   console.log(pageTracklist);
   console.log(pageBandMembers);

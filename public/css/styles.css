@@ -22,13 +22,13 @@
 }
 
 .bandmembers {
-  border-top: black 4px solid;
-
-  background-color: green;
+  margin: 10px;
+  /* background-image: url("/images/30STMBand.jpg"); */
 }
 
 .bandholder {
-  background-color: yellow;
+  border-top: black 4px solid;
+  background-image: url("/images/30STMBand.jpg");
 }
 
 .feedbackZone {
