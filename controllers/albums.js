@@ -11,6 +11,8 @@ router.get("/albums/:albumid", (req, res) => {
   let pageSales = [];
   let pageTracklist = [];
   let pageArt = [];
+  let pageBandMembers = [];
+  let pageBandPics = [];
 
   data.albums.forEach(albumObj => {
     if (albumObj.shortname == req.param("albumid")) {
@@ -20,10 +22,13 @@ router.get("/albums/:albumid", (req, res) => {
       pageSales.push(albumObj.sales);
       pageReleaseDate.push(albumObj.releasedate);
       pageTracklist.push(albumObj.tracklist);
+      pageBandMembers = pageBandMembers.concat(albumObj.bandpics);
       pageArt = pageArt.concat(albumObj.artwork);
-      pageCertification.push(albumObj.certifications);
+      pageBandPics = pageBandPics.concat(albumObj.bandpics);
+      // pageCertification = pageCertification.concat(albumObj.certifications);
     }
   });
+
   res.render("albums", {
     pageTitle: pageTitle,
     pageShortName: pageShortName,
@@ -31,14 +36,14 @@ router.get("/albums/:albumid", (req, res) => {
     pageReleaseDate: pageReleaseDate,
     pageSales: pageSales,
     pageArt: pageArt,
-    pageCertification: pageCertification,
-    pageTracklist: pageTracklist
+    // pageCertification: pageCertification,
+    pageTracklist: pageTracklist,
+    pageBandPics: pageBandPics,
+    pageBandMembers: pageBandMembers
   });
-  console.log(pageSales);
-  console.log(pageReleaseDate);
-  console.log(pageArt);
   console.log(pageCertification);
   console.log(pageTracklist);
+  console.log(pageBandMembers);
 });
 
 module.exports = router;
