@@ -86,6 +86,12 @@
         <div class='albumstats col-9'><h4><%= pageSummary[4] %></h4></div>
        </div>
 </div>
+<form action="">
+<input type="text" id=m>
+<input type="submit">Submit
+</form>
+
+<ul id="messages"></ul>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -103,6 +109,26 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js>
+      let socket = io();
+      //emit
+      let form = document.querySelector("form");
+      form.addEventListener("submit"), (e)=>{
+        e.preventDefault();
+        let m = document.getElementById('m')
+        socket.emit('chatMessage', m.value);
+        return false;
+      }
+
+      //recieve
+      //msg is new broadcasted from server
+      socket.on('chatMessage', (msg)=>{
+        let messages = document.getElementById('messages');
+        let liTag = messages.innerHTML + `<li>${msg}</li>`;
+        messages.innerHTML = liTag;
+        console.log(msg);
+      })
+      </script>
   </body>
 </html>
 

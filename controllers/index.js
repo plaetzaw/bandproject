@@ -2,6 +2,10 @@ const express = require("express");
 const router = express.Router();
 let data = require("../data/data.json");
 
+// router.get("/socket", (req, res) => {
+//   res.render("socket", {});
+// });
+
 router.get("/", (req, res) => {
   let shortSums = [];
   let pageArt = [];
