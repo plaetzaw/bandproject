@@ -1,4 +1,4 @@
-<h1>30 Seconds to Mars Bandpage Mockup<h1>
+<h1>30 Seconds to Mars Bandpage Mockup</h1>
 
 This is a mockup band page for my favorite band, 30 Seconds to Mars.
 
